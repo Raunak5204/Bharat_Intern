@@ -1,0 +1,93 @@
+body{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background: rgba(0, 0, 0, 0.6) url('images.jpg');
+    background-blend-mode: darken;
+}
+
+.logo{
+    width: 16%;
+    margin-left: 8%;
+}
+
+.btn{
+    padding: 8px 15px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: #e50914;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.nav{
+    padding-top: 5px;
+    padding-left: 2vw;
+    padding-right: 9vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+    margin-left: 35%;
+    padding: 15px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.content{
+    color: #fff;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    align-items: center;
+}
+.content h2{
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.content p{
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+
+
+.box{
+    width: 93%;
+    height: fit-content;
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.box input{
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    size: 1em;
+}
+
+.box a{
+    height: fit-content;
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 18px 12px;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}
